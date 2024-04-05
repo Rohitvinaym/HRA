@@ -1,0 +1,171 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: calibri;
+}
+
+nav .header{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  padding-left: 30px;
+}
+
+.icon{
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  cursor: pointer;
+}
+
+.icon img{
+  width: 35px;
+}
+
+.icon h1{
+  color: rgb(52, 220, 52);
+  font-size: 50px;
+}
+
+.header ul{
+  margin-left: 23%;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  list-style: none;
+}
+
+.header ul li a{
+  text-decoration: none;
+  color: black;
+  font-size: 23px;
+}
+
+.header ul li a:hover{
+  text-decoration: underline rgb(19, 252, 19);
+}
+
+.btns{
+  display: flex;
+  align-items: center;
+  margin-left: 25%;
+  gap: 10px;
+}
+
+.btns .sign-in-btn{
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  border-color: rgb(0, 245, 0);
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btns .login-btn{
+  padding: 15px 25px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  border-color: rgb(19, 252, 19);
+  outline: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.btns .sign-in-btn:hover, .btns .login-btn:hover{
+  background-color: rgb(19, 252, 19);
+  color: white;
+  border: none;
+}
+
+
+.hero{
+  margin-top: 2%;
+  width: 84%;
+  background:url(images/house1.jpg) no-repeat;
+  background-size: cover;
+  padding: 18%;
+  margin-left: 8%;
+  border-radius: 20px;
+  position: relative;
+}
+
+.hero .matter{
+  position: absolute;
+  top: 15%;
+  left: 3%;
+  color: white;
+  font-size: 30px;
+}
+
+.hero .matter .sign-up-btn{
+  padding: 15px 25px;
+  margin-top: 4%;
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.hero .matter .sign-up-btn:hover{
+  background-color: rgb(19, 252, 19);
+  color: white;
+  border: none;
+}
+
+.about_us{
+  margin-top: 4%;
+  width: 84%;
+  background: white;
+  padding-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+  display: flex;
+}
+
+.about_us .image{
+  margin-left: 2%;
+}
+
+.about_us_matter h1{
+  font-size: 60px;
+}
+
+.about_us_matter pre{
+  font-size: 25px;
+  margin-bottom: 4%;
+}
+
+.prop{
+  margin-top: 4%;
+  margin-left: 8%;
+  margin-bottom: 1%;
+}
+
+.prop h1{
+  font-size: 50px;
+}
+
+.properties{
+  width: 84%;
+  background: white;
+  padding: 2%;
+  margin-left: 8%;
+  margin-bottom: 4%;
+  border-radius: 20px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, .13), 0 1px 4px 0 rgba(0, 0, 0, .11);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+
+.properties .property img{
+  width: 230px;
+  cursor: pointer;
+}
