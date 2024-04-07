@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/HOUSE-RENTALS/static/css/main.3b71f7e0.css",
+    "main.js": "/HOUSE-RENTALS/static/js/main.f3245d9c.js",
+    "static/js/453.a2aa6e99.chunk.js": "/HOUSE-RENTALS/static/js/453.a2aa6e99.chunk.js",
+    "index.html": "/HOUSE-RENTALS/index.html",
+    "main.3b71f7e0.css.map": "/HOUSE-RENTALS/static/css/main.3b71f7e0.css.map",
+    "main.f3245d9c.js.map": "/HOUSE-RENTALS/static/js/main.f3245d9c.js.map",
+    "453.a2aa6e99.chunk.js.map": "/HOUSE-RENTALS/static/js/453.a2aa6e99.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b71f7e0.css",
+    "static/js/main.f3245d9c.js"
+  ]
+}
